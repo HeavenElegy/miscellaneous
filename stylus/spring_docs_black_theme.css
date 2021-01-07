@@ -1,4 +1,3 @@
-/* 用于将Spirng官网的Docs页面设置为暗色背景的css */
 body {
   /* 全局背景 */
   background-color: #1b1f23;
@@ -29,4 +28,8 @@ h7 {
 /* 页脚 */
 #footer-text {
   color: #979799 !important;
+}
+/* 代码块背景色 */
+.hljs {
+  background: #6b6b6b;
 }
