@@ -1,0 +1,51 @@
+/* Apache官网docs页面相关样式 */
+/* 匹配网址: apache.org/docs */
+body {
+  /* 全局背景 */
+  background-color: #343434;
+}
+/* 正文标题 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  color: #b2b2b2;
+}
+/* 段落与代码 */
+p,
+pre {
+  color: #8b8b8b !important;
+}
+/* 去掉章节标题背景并改色 */
+h3 {
+  background-color: #484848;
+  background-image: none;
+}
+/* 修改a标签颜色 */
+a {
+  color: #586e7a !important;
+}
+/* 删除顶部导航背景,进行居中,修改背景色 */
+#breadcrumbs {
+  background-image: none;
+  background-color: #484848;
+  padding-bottom: 5px;
+}
+/* 表格相关 */
+th {
+  background-color: #484848 !important;
+}
+tr.a {
+  background-color: #616161 !important;
+}
+tr.b {
+  background-color: #575757 !important;
+}
+table tt,
+table td,
+table b {
+  color: #b2b2b2 !important;
+}
