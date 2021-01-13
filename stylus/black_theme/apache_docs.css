@@ -16,7 +16,8 @@ h7 {
 }
 /* 段落与代码 */
 p,
-pre {
+pre,
+li {
   color: #8b8b8b !important;
 }
 /* 去掉章节标题背景并改色 */
