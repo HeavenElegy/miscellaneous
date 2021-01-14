@@ -1,0 +1,24 @@
+/* tutorialspoint.com暗色主体 */
+body {
+  /* 全局背景 */
+  background-color: #1b1f23;
+  /* 全局字体颜色 */
+  color: #bbbcbe;
+}
+/* 二级背景 */
+.tutorial-toc {
+  background-color: #484848;
+}
+/* 正文 */
+.tutorial-content {
+  background-color: #575757;
+}
+/* 导航栏 */
+.mui-appbar {
+  background-color: #6161;
+}
+/* 翻页按钮组 */
+.button-borders {
+  border-top: 1px solid #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
+}
